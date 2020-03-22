@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Be Vietnam|Boogaloo|Bellota Text' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>MessengeR</title>
+    <script>
+        $(document).ready(function () {
+            $("#bar").click(function () {
+                $("#navbar-link").slideToggle();
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <!-- navbar container -->
+    <header class="navbar">
+        <div id="logo">
+            <img src="img/logo1.png" alt="Messenger">
+            <div id="bar"><i class="fa fa-chevron-right"></i></div>
+        </div>
+        <div id="navbar-link">
+            <ul>
+                <li id="link"><a href="#">Home</a></li>
+                <li id="link"><a href="#about">About us</a></li>
+                <li id="link"><a href="#service">Services</a></li>
+                <li id="link"><a href="#contact">Contact us</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Body container -->
+    <div id="body-container">
+        <div>
+            <!-- <img src="img/Slidde3.png" alt="" srcset="" width="100%"> -->
+            <h1 style="font-family: 'Boogaloo';">We deliver<br>your message everywhere<br>in Rwanda</h1>
+        </div>
+    </div>
+
+    <!-- about container -->
+    <div id="about" class="container">
+        <h1 class="title">About Messenger</h1>
+        <div id="about-container">
+            <div><img src="img/logo.png" alt="Messenger Rwanda" id="image" srcset=""></div>
+            <hr id="line">
+            <div>
+                <p>Messenger-Rwanda is company located in Rwanda.
+                    We help people who want to deliver message in difference province of Rwanda.
+                    We don’t focus on message only, we are also focus on delivering items, product.
+                    We are available 24/7 days and we encourage you to work with because we are trusted company.
+                </p><br>
+                <p>Please don’t hesitate to contact us for more information through this <a
+                        href="#contact-item">link</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- service container -->
+    <div id="service" class="container" style="color:black">
+        <h1 class="title">Services</h1>
+        <p style="margin: 0 15%;padding:1em;text-align:justify">
+            Messenger - Rwanda is committed to providing
+             cost-effective and fast delivery service.
+              Our couriers and drivers care about their work 
+              and are experts at what they do. 
+              Most importantly, they create positive experiences 
+              for your customers to keep your business thriving.
+
+            Our messenger and delivery services in Rwanda include:
+        </p>
+        <div id="service-container">
+            <div id="card">
+                <img src="./img/deliver1.png" alt="">
+                <div>
+                    <h3 style="padding: 1em 0;">Delivery Services</h3>
+                    <p>This service covers mainly regional deliveries including up country. With networked agents
+                        covering all upcountry regions, Provinces, Districts and personal assigned agent for your
+                        specific location, inclusive of Hand to hand pickup and delivery, 24 hour call services,
+                        Packaging and Time definite deliveries.</p>
+                </div>
+            </div>
+            <div id="card">
+                <img src="./img/img3.jpeg" alt="">
+                <div>
+                    <h3 style="padding: 1em 0;">Messenger Services</h3>
+                    <p>This service covers mainly regional deliveries including up country. With networked agents
+                        covering all upcountry regions, Provinces, Districts and personal assigned agent for your
+                        specific location, inclusive of Hand to hand pickup and delivery, 24 hour call services,
+                        Packaging and Time definite deliveries.</p>
+                </div>
+            </div>
+
+            <div id="card">
+                <img src="./img/deliver3.png" alt="">
+                <div>
+                    <h3 style="padding: 1em 0;">Local Courrier Services</h3>
+                    <p>This service covers mainly regional deliveries including up country. With networked agents
+                        covering all upcountry regions, Provinces, Districts and personal assigned agent for your
+                        specific location, inclusive of Hand to hand pickup and delivery, 24 hour call services,
+                        Packaging and Time definite deliveries.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--   <div id="card">
+                <img src="./img/deliver2.jpeg" alt="">
+                <span>Messenger Services</span>
+            </div><hr>
+            <div id="card">
+                <img src="./img/deliver.png" alt="">
+                <span>Delivering Services</span>
+            </div><hr>
+            <div id="card">
+                <img src="./img/deliver1.jpeg" alt="">
+                <span>Messenger Services</span>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- contact container -->
+    <div id="contact" class="container" style="background-color: #1b1207;color:white">
+        <h1 class="title">Contact Us</h1>
+        <div id="contact-container">
+            <div id="contact-form">
+                <p id="displayError">Please Fill all required fields</p>
+                <form>
+                    <div>
+                        <label for="">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+                    </div>
+                    <div>
+                        <label for="">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div>
+                        <label for="">Message</label>
+                        <textarea name="" id="message" cols="60" rows="4" placeholder="Message..." required></textarea>
+                    </div>
+                    <button id="submit" type="submit">Submit</button>
+                </form>
+            </div>
+            <div id="contact-item">
+                <div>
+                    <h4>Phone & Whatsapp:</h4>
+                    <p>0783573335 & 0727787640</p>
+                </div>
+                <div>
+                    <h4>Email:</h4>
+                    <p>ncuti60gmail.com</p>
+                </div>
+                <div>
+                    <h4>Address:</h4>
+                    <p>KG 11 Ave, Gasabo, Kigali, Rwanda</p>
+                </div>
+                <div>
+                    <h4>Address:</h4>
+                    <p>KG 11 Ave, Gasabo, Kigali, Rwanda</p>
+                </div>
+                <div id="social">
+                    <h4>Follow us</h4>
+                    <a href="https://web.facebook.com/ndagijimana.xavier.1"><i class="fa fa-facebook fb"></i></a>
+                    <a href="https://twitter.com/ncutixavier"><i class="fa fa-twitter tter"></i></a>
+                    <a href="https://www.instagram.com/ncutixavier/?hl=en"><i class="fa fa-instagram ig"></i></a>
+                    <a href="http://linkedin.com/in/ncuti-xavier-979284197"><i class="fa fa-linkedin in"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="footer" style="color: white;text-align: center; padding:.3em">
+            <p>&copy; 2020 Messenger |
+                <a href="#">Home</a> |
+                <a href="#about">About us</a> |
+                <a href="#service">Services</a> |
+                <a href="#contact">Contact us</a>
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>

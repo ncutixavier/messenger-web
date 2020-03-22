@@ -1,0 +1,2 @@
+logo: #c97712
+bac: #bbb3a8

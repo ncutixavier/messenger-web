@@ -154,15 +154,27 @@ button {
 
   #contact-item>div{
       margin: 1.5em 0;
+      line-height: 2;
+      padding: 0 1.5em;
   }
+
+
+.p-br{
+    border-radius: 50%;
+    padding: .7em;
+}
 
   #social>a>i{
     background-color: #c97712;
-    padding: .7em;
     color: white;
-    border-radius: 50%;
     font-size: 1.3em;
+    margin: .3em;
   }
+
+  #fbook{
+    padding: .7em .9em;
+    border-radius: 50%;
+}
 
   #social>a>i:hover{
       border: 3px solid #c97712;
@@ -185,6 +197,7 @@ button {
     padding: .5em;
     border-radius: 4px;
 }
+
 
 #footer>p>a{
     color: white;

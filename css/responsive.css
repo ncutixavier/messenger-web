@@ -267,6 +267,10 @@
         padding-bottom: 1.5em;
     }
 
+    #footer>p{
+        font-size: .6em;
+    }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

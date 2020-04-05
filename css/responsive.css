@@ -224,6 +224,7 @@
 
     #navbar-link ul li{
         margin: .6em;
+        text-align: center;
     }
 
     #body-container>div>h1{

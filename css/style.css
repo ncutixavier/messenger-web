@@ -76,7 +76,7 @@ font-size: 2em;
     background-image: linear-gradient(
         to right bottom,
         rgba(221, 217, 212, .2),
-        rgba(221, 217, 212, .8)), 
+        rgba(221, 217, 212, .1)), 
     url(img/Slidde3.png);
     /* background-image: url('img/Slidde3.png'); */
     background-repeat: no-repeat;

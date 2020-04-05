@@ -257,11 +257,14 @@
 
     #card img{
 <<<<<<< HEAD
+<<<<<<< HEAD
         width: 100px;
         height: 70px;
 //=======
+=======
+>>>>>>> 982a45924b62ce4c18fcd5c4b1b3c9bd5e9046ea
         width: 20%;
-        height: 100px;
+        height: 110px;
     }
 
     #contact-container{
@@ -278,7 +281,13 @@
 
 }
 
+@media only screen and (min-width: 992px) {
+    #body-container>div{
+        margin-top: 2.2em;
+    }
+}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     
 }
+
